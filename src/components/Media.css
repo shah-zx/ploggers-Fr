@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap');
+/* Events.css */
+
+.press-news h2,
+.existing-media h2 {
+    font-family: 'Poppins', sans-serif;
+    /* Set font to Poppins */
+    font-weight: 700;
+    /* Bold weight */
+}
+
+
+.events-page {
+    padding: 40px 20px;
+    background-color: white;
+    /* Light background */
+}
+
+.hero-section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    /* Primary color */
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    color: #6c757d;
+    /* Secondary text color */
+}
+
+.upcoming-events,
+.past-events {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #343a40;
+    /* Dark text color */
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    /* Light border */
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Hover effect */
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #007bff;
+    /* Primary color */
+}
+
+.card-text {
+    color: #495057;
+    /* Darker text for card content */
+}
+
+button {
+    background-color: #007bff;
+    /* Primary button color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker on hover */
+    color: white;
+    /* Button text color on hover */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+}
+
+/* Styles for the Add a New Event button */
+.add-event-button {
+    background-color: #007bff; /* Primary button color */
+    border: none;
+    padding: 12px 24px; /* Adjust padding for better click area */
+    border-radius: 50px; /* Rounded corners */
+    color: white; /* Text color */
+    font-size: 1rem; /* Font size */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation effects */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.add-event-button:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5); /* Add shadow on hover */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .add-event-button {
+        width: 100%; /* Make button full-width on smaller screens */
+    }
+}
+
+.hero-banner h1 {
+    font-family: 'Poppins', sans-serif; /* Poppins font */
+    font-weight: 800; /* Bold weight */
+    font-size: 2.5rem; /* Adjust size as needed */
+    color: #333; /* Optional: Change color */
+}
+
+.hero-banner p {
+    font-family: 'Poppins', sans-serif; /* Poppins font */
+    font-weight: 500; /* Medium weight */
+    font-style: italic; /* Italic style */
+    font-size: 1.2rem; /* Adjust size as needed */
+    color: #666; /* Optional: Change color */
+}
+
+/* Gallery section headings */
+.photo-gallery h3 {
+    font-family: 'Poppins', sans-serif; /* Poppins font */
+    font-weight: 600; /* Semi-bold weight */
+    font-size: 1.5rem; /* Adjust size as needed */
+    color: #333; /* Dark color for contrast */
+    text-align: center; /* Center alignment */
+    margin-top: 30px; /* Space above the heading */
+}
+
+.photo-gallery .description {
+    font-family: 'Poppins', sans-serif; /* Poppins font */
+    font-weight: 400; /* Regular weight */
+    color: #555; /* Dark gray color */
+    text-align: center; /* Center alignment */
+    margin-top: 10px; /* Space above the description */
+}

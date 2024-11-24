@@ -1,0 +1,131 @@
+/* code written by pratiksha patil */
+
+
+/* Media.css */
+.media-page {
+    margin-top: 40px;
+  }
+  
+  .hero-banner {
+    font-family: 'Poppins', sans-serif !important; /* Force Poppins font */
+    text-align: center; /* Center align the text */
+  }
+  
+  .hero-banner h1 {
+    font-size: 2.5rem; /* Adjust the size as needed */
+    color: #333; /* Optional: Change color */
+  }
+  
+  .hero-banner p {
+    font-size: 1.2rem; /* Adjust the size as needed */
+    color: #666; /* Optional: Change color */
+  }
+  .photo-gallery, .testimonials {
+    margin-bottom: 40px;
+  }
+  
+  .photo-gallery h2, .testimonials h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  /* Specific background colors for each section */
+  .photo-gallery {
+    background-color: #e0f7fa; /* Light green */
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 20px rgba(173, 216, 230, 0.5), /* Light blue shadow */
+                0 4px 20px rgba(216, 191, 216, 0.5); /* Light purple shadow */
+  }
+  
+  /* New styles for photo gallery */
+  .photo-gallery .gallery-section h3 {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .card {
+    border: none; /* Remove default border */
+    border-radius: 50px; /* Rounded corners for the card */
+    overflow: hidden; /* Ensure corners are rounded */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    position: relative; /* Position for the pseudo-element */
+  }
+  
+  .card img {
+    border-radius: 50px; /* Ensure the image also has rounded corners */
+    transition: transform 0.3s; /* Animation for hover effect */
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .card img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .gallery-section {
+    margin-bottom: 40px; /* Spacing between sections */
+  }
+  
+  /* Additional styles to give a unique border */
+  .card::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0); /* Unique border color */
+    border-radius: 50px; /* Match the card's border radius */
+    z-index: -1; /* Send the background behind the card */
+  }
+  
+  /* Code for heading - Gallery */
+  .photo-gallery h2 {
+    font-size: 36px; /* Increase font size */
+    font-weight: bold; /* Make it bold */
+    color: #333; /* Dark color for contrast */
+    text-align: center; /* Center alignment */
+    text-transform: uppercase; /* Uppercase letters for emphasis */
+    letter-spacing: 2px; /* Space between letters */
+    margin-bottom: 20px; /* Space below the heading */
+    position: relative; /* For text shadow */
+  }
+  
+  /* Add a subtle text shadow for depth */
+  .photo-gallery h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px; /* Position below the text */
+    height: 5px; /* Height of the underline */
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient underline */
+    border-radius: 5px; /* Rounded edges */
+    z-index: -1; /* Behind the text */
+  }
+  
+  /* For sub heading */
+  .photo-gallery h3 {
+    font-size: 28px; /* Size slightly smaller than the main heading */
+    font-weight: 600; /* Semi-bold for emphasis */
+    color: #555; /* Dark gray color for a softer contrast */
+    text-align: center; /* Center alignment */
+    text-transform: capitalize; /* Capitalize the first letter of each word */
+    margin-top: 20px; /* Space above the subheading */
+    margin-bottom: 10px; /* Space below the subheading */
+    position: relative; /* For decorative underline */
+  }
+  
+  /* Add a decorative underline effect */
+  .photo-gallery h3::after {
+    content: '';
+    display: block; /* Make it a block element */
+    width: 50px; /* Width of the underline */
+    height: 4px; /* Height of the underline */
+    background: #ff7e5f; /* Color for the underline */
+    border-radius: 2px; /* Slightly rounded edges */
+    margin: 10px auto 0; /* Center it and add space above */
+  }
+  

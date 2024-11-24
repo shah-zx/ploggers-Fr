@@ -1,0 +1,70 @@
+/* Blog.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.blog-main-content {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.blog-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: calc(100% - 40px); /* Adjust the width to be a bit less */
+    margin-left: 30px;
+    border-radius: 50px;
+}
+
+.blog-sidebar {
+    flex: 1 0 300px; /* Prevent the sidebar from growing */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    height: 100vh; /* Set a fixed height for the sidebar */
+    overflow-y: auto; /* Add scroll if content overflows */
+}
+
+.blog-sidebar h3 {
+    margin-top: 0;
+}
+
+.blog-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.blog-sidebar ul li {
+    margin-bottom: 10px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .blog-container {
+        flex-direction: column;
+    }
+
+    .blog-main-content {
+        margin-right: 0;
+    }
+
+    .blog-sidebar {
+        margin-top: 20px;
+        height: auto; /* Adjust height for smaller screens */
+    }
+}
