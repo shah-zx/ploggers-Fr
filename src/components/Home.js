@@ -2,13 +2,13 @@
 
 
 import React from 'react';
-import { Container, Carousel } from 'react-bootstrap';
-import About from './About';
+import { Carousel } from 'react-bootstrap';
+// import About from './About';
 import { useState, useEffect } from 'react'; // Import React hooks
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'; // Import Router components
-import { Navbar, Nav } from 'react-bootstrap'; // Import Bootstrap components
+//import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'; // Import Router components
+//import { Navbar, Nav } from 'react-bootstrap'; // Import Bootstrap components
 import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap CSS is included
-import Footer from './Footer';
+//import Footer from './Footer';
 import VideoSection from './Video';
 function Home() {
 
@@ -131,7 +131,7 @@ function Home() {
     // Code for videos counter - 
 
    
-    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+    // const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
 
 

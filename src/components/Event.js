@@ -4,7 +4,7 @@
 import React from 'react';
 import './Media.css'; // Make sure to style accordingly
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 //import Footer from './Footer'; - Not required
 
 
@@ -141,22 +141,22 @@ const videos = [
   { url: './videos/vid-10.mp4' },
 ];
 
-const press = [
-  { imageSrc: './images/Clb-27.jpg' },
-  { imageSrc: './images/Clb-28.jpg' },
-  { imageSrc: './images/Clb-29.jpg' },
-  { imageSrc: './images/Clb-30.jpg' },
-  { imageSrc: './images/Clb-31.jpg' },
-  { imageSrc: './images/Clb-32.jpg' },
-  { imageSrc: './images/Clb-33.jpg' },
-  { imageSrc: './images/Clb-34.jpg' },
+// const press = [
+//   { imageSrc: './images/Clb-27.jpg' },
+//   { imageSrc: './images/Clb-28.jpg' },
+//   { imageSrc: './images/Clb-29.jpg' },
+//   { imageSrc: './images/Clb-30.jpg' },
+//   { imageSrc: './images/Clb-31.jpg' },
+//   { imageSrc: './images/Clb-32.jpg' },
+//   { imageSrc: './images/Clb-33.jpg' },
+//   { imageSrc: './images/Clb-34.jpg' },
 
-];
+// ];
 
-const testimonials = [
-  { name: 'John Doe', text: 'Plogging with this NGO has been a transformative experience for me.' },
-  { name: 'Jane Smith', text: 'I love how they combine fitness with environmental care.' },
-];
+// const testimonials = [
+//   { name: 'John Doe', text: 'Plogging with this NGO has been a transformative experience for me.' },
+//   { name: 'Jane Smith', text: 'I love how they combine fitness with environmental care.' },
+// ];
 
 const Media = () => {
 
@@ -182,33 +182,33 @@ const Media = () => {
 
   // Start of style for press section //
 
-  const styles = {
-    pressNews: {
-      marginBottom: '40px',
-      backgroundColor: '#e0f7fa', /* Light green */
-      padding: '20px', // Padding
-      borderRadius: '50px', // Rounded corners
-      boxShadow: '0 4px 20px rgba(173, 216, 230, 0.5), 0 4px 20px rgba(216, 191, 216, 0.5)', // Shadow effect
-    },
-    photoContainer: {
-      overflow: 'hidden',
-      borderRadius: '50px', // Rounded corners
-      boxShadow: '0 4px 20px rgba(173, 216, 230, 0.5)', // Shadow for depth
-    },
-    photo: {
-      width: '100%', // Make images responsive
-      height: 'auto', // Maintain aspect ratio
-      borderRadius: '50px', // Ensure the image also has rounded corners
-      transition: 'transform 0.3s', // Animation for hover effect
-    },
-  };
+  // const styles = {
+  //   pressNews: {
+  //     marginBottom: '40px',
+  //     backgroundColor: '#e0f7fa', /* Light green */
+  //     padding: '20px', // Padding
+  //     borderRadius: '50px', // Rounded corners
+  //     boxShadow: '0 4px 20px rgba(173, 216, 230, 0.5), 0 4px 20px rgba(216, 191, 216, 0.5)', // Shadow effect
+  //   },
+  //   photoContainer: {
+  //     overflow: 'hidden',
+  //     borderRadius: '50px', // Rounded corners
+  //     boxShadow: '0 4px 20px rgba(173, 216, 230, 0.5)', // Shadow for depth
+  //   },
+  //   photo: {
+  //     width: '100%', // Make images responsive
+  //     height: 'auto', // Maintain aspect ratio
+  //     borderRadius: '50px', // Ensure the image also has rounded corners
+  //     transition: 'transform 0.3s', // Animation for hover effect
+  //   },
+  // };
 
   // Add hover effect
-  const hoverEffect = {
-    ':hover': {
-      transform: 'scale(1.05)', // Slight zoom effect on hover
-    },
-  };
+  // const hoverEffect = {
+  //   ':hover': {
+  //     transform: 'scale(1.05)', // Slight zoom effect on hover
+  //   },
+  // };
 
 
 

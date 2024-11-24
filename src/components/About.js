@@ -3,7 +3,7 @@
 
 // components/About.js
 import React, { useState } from 'react';
-import Footer from './Footer';
+//import Footer from './Footer';
 
 const About = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -21,49 +21,49 @@ const About = () => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  const styles = {
-    footerContainer: {
-      marginTop: '40px',
-      padding: '20px',
-      borderRadius: '50px',
-      boxShadow: '0 0 10px gray',
-      backgroundColor: '#FFC080',
-      maxWidth: '90%',
-      margin: '0 auto',
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'flex-start',
-      textAlign: 'center',
-    },
-    footerSection: {
-      flex: 1,
-      padding: '10px',
-    },
-    footerLeft: {
-      textAlign: 'left',
-    },
-    footerCenter: {
-      textAlign: 'center',
-      marginTop: '10px',
-    },
-    footerRight: {
-      textAlign: 'right',
-      marginTop: '5px',
-    },
-    footerHeader: {
-      fontWeight: 'bold',
-      marginBottom: '10px',
-    },
-    footerLink: {
-      display: 'block',
-      margin: '5px 0',
-      textDecoration: 'none',
-      color: 'inherit',
-    },
-    footerParagraph: {
-      margin: '5px 0',
-    },
-  };
+  // const styles = {
+  //   footerContainer: {
+  //     marginTop: '40px',
+  //     padding: '20px',
+  //     borderRadius: '50px',
+  //     boxShadow: '0 0 10px gray',
+  //     backgroundColor: '#FFC080',
+  //     maxWidth: '90%',
+  //     margin: '0 auto',
+  //     display: 'flex',
+  //     justifyContent: 'space-between',
+  //     alignItems: 'flex-start',
+  //     textAlign: 'center',
+  //   },
+  //   footerSection: {
+  //     flex: 1,
+  //     padding: '10px',
+  //   },
+  //   footerLeft: {
+  //     textAlign: 'left',
+  //   },
+  //   footerCenter: {
+  //     textAlign: 'center',
+  //     marginTop: '10px',
+  //   },
+  //   footerRight: {
+  //     textAlign: 'right',
+  //     marginTop: '5px',
+  //   },
+  //   footerHeader: {
+  //     fontWeight: 'bold',
+  //     marginBottom: '10px',
+  //   },
+  //   footerLink: {
+  //     display: 'block',
+  //     margin: '5px 0',
+  //     textDecoration: 'none',
+  //     color: 'inherit',
+  //   },
+  //   footerParagraph: {
+  //     margin: '5px 0',
+  //   },
+  // };
 
   return (
     <div>

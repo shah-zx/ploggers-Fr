@@ -47,7 +47,9 @@ const VideoSection = () => {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                         style={{ borderRadius: '30px' }}
+                        title="YouTube video - Our Work" // Add the title attribute here
                     ></iframe>
+
                 )}
             </div>
         </div>
